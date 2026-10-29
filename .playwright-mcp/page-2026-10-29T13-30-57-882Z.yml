@@ -1,0 +1,227 @@
+- generic [ref=f7e3]:
+  - generic:
+    - complementary [ref=f7e4]:
+      - navigation "Sidepanel" [ref=f7e5]:
+        - generic [ref=f7e6]:
+          - link [ref=f7e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=f7e9]
+          - text: 
+        - generic [ref=f7e10]:
+          - generic [ref=f7e11]:
+            - generic [ref=f7e12]:
+              - textbox "Search" [ref=f7e15]
+              - button "" [ref=f7e16] [cursor=pointer]
+            - separator [ref=f7e18]
+          - list [ref=f7e19]:
+            - listitem [ref=f7e20]:
+              - link "Admin" [ref=f7e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+            - listitem [ref=f7e25]:
+              - link "PIM" [ref=f7e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+            - listitem [ref=f7e41]:
+              - link "Leave" [ref=f7e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+            - listitem [ref=f7e46]:
+              - link "Time" [ref=f7e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+            - listitem [ref=f7e54]:
+              - link "Recruitment" [ref=f7e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+            - listitem [ref=f7e62]:
+              - link "My Info" [ref=f7e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+            - listitem [ref=f7e70]:
+              - link "Performance" [ref=f7e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+            - listitem [ref=f7e80]:
+              - link "Dashboard" [ref=f7e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+            - listitem [ref=f7e85]:
+              - link "Directory" [ref=f7e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+            - listitem [ref=f7e90]:
+              - link "Maintenance" [ref=f7e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+            - listitem [ref=f7e96]:
+              - link "Claim" [ref=f7e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+            - listitem [ref=f7e105]:
+              - link "Buzz" [ref=f7e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+    - banner [ref=f7e110]:
+      - generic [ref=f7e111]:
+        - generic [ref=f7e112]:
+          - text: 
+          - heading "Dashboard" [level=6] [ref=f7e114]
+        - link [ref=f7e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=f7e117] [cursor=pointer]
+        - list [ref=f7e123]:
+          - listitem [ref=f7e124]:
+            - generic [ref=f7e125] [cursor=pointer]:
+              - img "profile picture" [ref=f7e126]
+              - paragraph [ref=f7e127]: Muhammad Rehman
+              - generic [ref=f7e128]: 
+            - menu [ref=f7e355]:
+              - listitem [ref=f7e356]:
+                - menuitem "About" [ref=f7e357] [cursor=pointer]
+              - listitem [ref=f7e358]:
+                - menuitem "Support" [ref=f7e359] [cursor=pointer]
+              - listitem [ref=f7e360]:
+                - menuitem "Change Password" [ref=f7e361] [cursor=pointer]
+              - listitem [ref=f7e362]:
+                - menuitem "Logout" [ref=f7e363] [cursor=pointer]
+      - navigation "Topbar Menu" [ref=f7e130]:
+        - list [ref=f7e131]:
+          - button "" [ref=f7e133] [cursor=pointer]
+  - generic [ref=f7e135]:
+    - generic [ref=f7e137]:
+      - generic [ref=f7e139]:
+        - generic [ref=f7e141]:
+          - generic [ref=f7e142]: 
+          - paragraph [ref=f7e143]: Time at Work
+        - separator [ref=f7e144]
+        - generic [ref=f7e146]:
+          - generic [ref=f7e147]:
+            - img "profile picture" [ref=f7e149]
+            - generic [ref=f7e150]:
+              - paragraph [ref=f7e151]: Punched Out
+              - paragraph [ref=f7e152]: "Punched Out: Jan 1st at 01:31 PM (GMT 1)"
+          - generic [ref=f7e153]:
+            - generic [ref=f7e154]: 1h 9m Today
+            - button "" [ref=f7e155] [cursor=pointer]
+          - separator [ref=f7e157]
+          - generic [ref=f7e158]:
+            - generic [ref=f7e159]:
+              - paragraph [ref=f7e160]: This Week
+              - paragraph [ref=f7e161]: Oct 26 - Nov 01
+            - generic [ref=f7e162]:
+              - generic [ref=f7e163]: 
+              - paragraph [ref=f7e164]: 0h 55m
+      - generic [ref=f7e168]:
+        - generic [ref=f7e170]:
+          - generic [ref=f7e171]: 
+          - paragraph [ref=f7e172]: My Actions
+        - separator [ref=f7e173]
+        - generic [ref=f7e176]:
+          - button [ref=f7e177] [cursor=pointer]
+          - paragraph [ref=f7e183] [cursor=pointer]: (1) Pending Self Review
+      - generic [ref=f7e185]:
+        - generic [ref=f7e187]:
+          - generic [ref=f7e188]: 
+          - paragraph [ref=f7e189]: Quick Launch
+        - separator [ref=f7e190]
+        - generic [ref=f7e192]:
+          - generic [ref=f7e193]:
+            - button "Assign Leave" [ref=f7e194] [cursor=pointer]
+            - generic "Assign Leave" [ref=f7e197]:
+              - paragraph [ref=f7e198]: Assign Leave
+          - generic [ref=f7e199]:
+            - button "Leave List" [ref=f7e200] [cursor=pointer]
+            - generic "Leave List" [ref=f7e207]:
+              - paragraph [ref=f7e208]: Leave List
+          - generic [ref=f7e209]:
+            - button "Timesheets" [ref=f7e210] [cursor=pointer]
+            - generic "Timesheets" [ref=f7e216]:
+              - paragraph [ref=f7e217]: Timesheets
+          - generic [ref=f7e218]:
+            - button "Apply Leave" [ref=f7e219] [cursor=pointer]
+            - generic "Apply Leave" [ref=f7e222]:
+              - paragraph [ref=f7e223]: Apply Leave
+          - generic [ref=f7e224]:
+            - button "My Leave" [ref=f7e225] [cursor=pointer]
+            - generic "My Leave" [ref=f7e230]:
+              - paragraph [ref=f7e231]: My Leave
+          - generic [ref=f7e232]:
+            - button "My Timesheet" [ref=f7e233] [cursor=pointer]
+            - generic "My Timesheet" [ref=f7e236]:
+              - paragraph [ref=f7e237]: My Timesheet
+      - generic [ref=f7e239]:
+        - generic [ref=f7e241]:
+          - generic [ref=f7e242]: 
+          - paragraph [ref=f7e243]: Buzz Latest Posts
+        - separator [ref=f7e244]
+        - generic [ref=f7e246]:
+          - generic [ref=f7e247]:
+            - generic [ref=f7e248] [cursor=pointer]:
+              - img "profile picture" [ref=f7e250]
+              - generic [ref=f7e251]:
+                - paragraph [ref=f7e252]: Muhammad Abdul Rehman
+                - paragraph [ref=f7e253]: 2026-29-10 06:13 PM
+            - separator [ref=f7e254]
+            - paragraph [ref=f7e255]: edited swarmm0
+          - generic [ref=f7e256]:
+            - generic [ref=f7e257] [cursor=pointer]:
+              - img "profile picture" [ref=f7e259]
+              - generic [ref=f7e260]:
+                - paragraph [ref=f7e261]: Muhammad Abdul Rehman
+                - paragraph [ref=f7e262]: 2026-29-10 06:13 PM
+            - separator [ref=f7e263]
+            - paragraph [ref=f7e264]: Long swarmm0 Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum END-MARK
+          - generic [ref=f7e265]:
+            - generic [ref=f7e266] [cursor=pointer]:
+              - img "profile picture" [ref=f7e268]
+              - generic [ref=f7e269]:
+                - paragraph [ref=f7e270]: Muhammad Abdul Rehman
+                - paragraph [ref=f7e271]: 2026-29-10 06:12 PM
+            - separator [ref=f7e272]
+            - paragraph [ref=f7e273]: <script>alert(1)</script> dup swarmm0
+          - generic [ref=f7e274]:
+            - generic [ref=f7e275] [cursor=pointer]:
+              - img "profile picture" [ref=f7e277]
+              - generic [ref=f7e278]:
+                - paragraph [ref=f7e279]: Muhammad Abdul Rehman
+                - paragraph [ref=f7e280]: 2026-29-10 05:50 PM
+            - separator [ref=f7e281]
+            - paragraph [ref=f7e282]: edited swarmm0
+          - generic [ref=f7e283]:
+            - generic [ref=f7e284] [cursor=pointer]:
+              - img "profile picture" [ref=f7e286]
+              - generic [ref=f7e287]:
+                - paragraph [ref=f7e288]: Muhammad Abdul Rehman
+                - paragraph [ref=f7e289]: 2026-29-10 05:49 PM
+            - separator [ref=f7e290]
+            - paragraph [ref=f7e291]: Hello swarmm0 <b>bold</b> & é 😀 https://example.com
+      - generic [ref=f7e293]:
+        - generic [ref=f7e294]:
+          - paragraph [ref=f7e299]: Employees on Leave Today
+          - generic [ref=f7e300] [cursor=pointer]: 
+        - separator [ref=f7e301]
+        - generic [ref=f7e303]:
+          - img "No Content" [ref=f7e304]
+          - paragraph [ref=f7e305]: No Employees are on Leave Today
+      - generic [ref=f7e307]:
+        - generic [ref=f7e309]:
+          - generic [ref=f7e310]: 
+          - paragraph [ref=f7e311]: Employee Distribution by Sub Unit
+        - separator [ref=f7e312]
+        - list [ref=f7e317]:
+          - listitem [ref=f7e318] [cursor=pointer]:
+            - generic "Engineering" [ref=f7e320]
+          - listitem [ref=f7e321] [cursor=pointer]:
+            - generic "Human Resources" [ref=f7e323]
+          - listitem [ref=f7e324] [cursor=pointer]:
+            - generic "Administration" [ref=f7e326]
+          - listitem [ref=f7e327] [cursor=pointer]:
+            - generic "Client Services" [ref=f7e329]
+          - listitem [ref=f7e330] [cursor=pointer]:
+            - generic "Unassigned" [ref=f7e332]
+      - generic [ref=f7e334]:
+        - generic [ref=f7e336]:
+          - generic [ref=f7e337]: 
+          - paragraph [ref=f7e338]: Employee Distribution by Location
+        - separator [ref=f7e339]
+        - list [ref=f7e344]:
+          - listitem [ref=f7e345] [cursor=pointer]:
+            - generic "Canadian Regional HQ" [ref=f7e347]
+          - listitem [ref=f7e348] [cursor=pointer]:
+            - generic "Unassigned" [ref=f7e350]
+    - generic [ref=f7e351]:
+      - paragraph [ref=f7e352]: OrangeHRM OS 5.9
+      - paragraph [ref=f7e353]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=f7e354] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
